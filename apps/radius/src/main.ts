@@ -20,7 +20,7 @@ async function bootstrap() {
       },
     }),
   });
+  logger.verbose(`Start MicroService`);
   app.startAllMicroservices();
 }
 bootstrap();
-

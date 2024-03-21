@@ -4,9 +4,11 @@ import {
   Inject,
   Logger,
   Param,
+  UseGuards,
   Version,
 } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
+import { NasGuard } from '../nas/nas.guard';
 
 @Controller('auth')
 export class ApiController {

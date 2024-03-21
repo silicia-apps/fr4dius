@@ -13,4 +13,10 @@ describe('RadiusController', () => {
 
     radiusController = app.get<RadiusController>(RadiusController);
   });
+
+  describe('root', () => {
+    it('should return "Hello World!"', () => {
+      expect(radiusController.message).toBe('Hello World!');
+    });
+  });
 });

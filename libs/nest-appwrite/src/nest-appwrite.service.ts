@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { Client, Databases, Query } from 'node-appwrite';
+import { Client, Databases } from 'node-appwrite';
 
 @Injectable()
 export class NestAppwriteService {

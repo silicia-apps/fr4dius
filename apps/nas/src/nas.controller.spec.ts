@@ -16,7 +16,7 @@ describe('NasController', () => {
 
   describe('root', () => {
     it('should return "Hello World!"', () => {
-      expect(nasController.getHello()).toBe('Hello World!');
+      expect(nasController.reverseLookup).toBe('Hello World!');
     });
   });
 });
